@@ -1,0 +1,15 @@
+C:\Users\Kco\Desktop\C#GithubRepo\C-\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\obj\Debug\net6.0\AbstractClassesAndInterfaces.csproj.AssemblyReference.cache
+C:\Users\Kco\Desktop\C#GithubRepo\C-\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\obj\Debug\net6.0\AbstractClassesAndInterfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kco\Desktop\C#GithubRepo\C-\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\obj\Debug\net6.0\AbstractClassesAndInterfaces.AssemblyInfoInputs.cache
+C:\Users\Kco\Desktop\C#GithubRepo\C-\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\obj\Debug\net6.0\AbstractClassesAndInterfaces.AssemblyInfo.cs
+C:\Users\Kco\Desktop\C#GithubRepo\C-\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\obj\Debug\net6.0\AbstractClassesAndInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Kco\Desktop\C#GithubRepo\C-\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\bin\Debug\net6.0\AbstractClassesAndInterfaces.exe
+C:\Users\Kco\Desktop\C#GithubRepo\C-\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\bin\Debug\net6.0\AbstractClassesAndInterfaces.deps.json
+C:\Users\Kco\Desktop\C#GithubRepo\C-\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\bin\Debug\net6.0\AbstractClassesAndInterfaces.runtimeconfig.json
+C:\Users\Kco\Desktop\C#GithubRepo\C-\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\bin\Debug\net6.0\AbstractClassesAndInterfaces.dll
+C:\Users\Kco\Desktop\C#GithubRepo\C-\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\bin\Debug\net6.0\AbstractClassesAndInterfaces.pdb
+C:\Users\Kco\Desktop\C#GithubRepo\C-\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\obj\Debug\net6.0\AbstractClassesAndInterfaces.dll
+C:\Users\Kco\Desktop\C#GithubRepo\C-\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\obj\Debug\net6.0\refint\AbstractClassesAndInterfaces.dll
+C:\Users\Kco\Desktop\C#GithubRepo\C-\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\obj\Debug\net6.0\AbstractClassesAndInterfaces.pdb
+C:\Users\Kco\Desktop\C#GithubRepo\C-\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\obj\Debug\net6.0\AbstractClassesAndInterfaces.genruntimeconfig.cache
+C:\Users\Kco\Desktop\C#GithubRepo\C-\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\AbstractClassesAndInterfaces\obj\Debug\net6.0\ref\AbstractClassesAndInterfaces.dll
