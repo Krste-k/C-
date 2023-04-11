@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaxiMenagerAplicationManagerApp9000.DataAcces\TaxiMenagerAplicationManagerApp9000.DataAcces.csproj" />
+    <ProjectReference Include="..\TaxiMenagerAplicationManagerApp9000.Domain\TaxiMenagerAplicationManagerApp9000.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
