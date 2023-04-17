@@ -1,0 +1,5 @@
+C:\Users\Kco\Desktop\C#GithubRepo\C-\Academy\ExcersizeBasicConcepts\ExcersizeBasicConcepts\obj\Debug\net6.0\ExcersizeBasicConcepts.csproj.AssemblyReference.cache
+C:\Users\Kco\Desktop\C#GithubRepo\C-\Academy\ExcersizeBasicConcepts\ExcersizeBasicConcepts\obj\Debug\net6.0\ExcersizeBasicConcepts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kco\Desktop\C#GithubRepo\C-\Academy\ExcersizeBasicConcepts\ExcersizeBasicConcepts\obj\Debug\net6.0\ExcersizeBasicConcepts.AssemblyInfoInputs.cache
+C:\Users\Kco\Desktop\C#GithubRepo\C-\Academy\ExcersizeBasicConcepts\ExcersizeBasicConcepts\obj\Debug\net6.0\ExcersizeBasicConcepts.AssemblyInfo.cs
+C:\Users\Kco\Desktop\C#GithubRepo\C-\Academy\ExcersizeBasicConcepts\ExcersizeBasicConcepts\obj\Debug\net6.0\ExcersizeBasicConcepts.csproj.CoreCompileInputs.cache
