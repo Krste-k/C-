@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TaxiManagerApp9000.App",
+    "\\TaxiManagerApp9000.DataAccess",
+    "\\TaxiManagerApp9000.DataAccess\\Interfaces",
+    "\\TaxiManagerApp9000.Domain",
+    "\\TaxiManagerApp9000.Domain\\Entities",
+    "\\TaxiManagerApp9000.Helpers",
+    "\\TaxiManagerApp9000.Services"
+  ],
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,15 @@
+C:\Users\Kco\Desktop\C#GithubRepo\C-\FileSistem\WorkWithFileSistem\WorkWithFileSistem\bin\Debug\net6.0\WorkWithFileSistem.exe
+C:\Users\Kco\Desktop\C#GithubRepo\C-\FileSistem\WorkWithFileSistem\WorkWithFileSistem\bin\Debug\net6.0\WorkWithFileSistem.deps.json
+C:\Users\Kco\Desktop\C#GithubRepo\C-\FileSistem\WorkWithFileSistem\WorkWithFileSistem\bin\Debug\net6.0\WorkWithFileSistem.runtimeconfig.json
+C:\Users\Kco\Desktop\C#GithubRepo\C-\FileSistem\WorkWithFileSistem\WorkWithFileSistem\bin\Debug\net6.0\WorkWithFileSistem.dll
+C:\Users\Kco\Desktop\C#GithubRepo\C-\FileSistem\WorkWithFileSistem\WorkWithFileSistem\bin\Debug\net6.0\WorkWithFileSistem.pdb
+C:\Users\Kco\Desktop\C#GithubRepo\C-\FileSistem\WorkWithFileSistem\WorkWithFileSistem\obj\Debug\net6.0\WorkWithFileSistem.csproj.AssemblyReference.cache
+C:\Users\Kco\Desktop\C#GithubRepo\C-\FileSistem\WorkWithFileSistem\WorkWithFileSistem\obj\Debug\net6.0\WorkWithFileSistem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kco\Desktop\C#GithubRepo\C-\FileSistem\WorkWithFileSistem\WorkWithFileSistem\obj\Debug\net6.0\WorkWithFileSistem.AssemblyInfoInputs.cache
+C:\Users\Kco\Desktop\C#GithubRepo\C-\FileSistem\WorkWithFileSistem\WorkWithFileSistem\obj\Debug\net6.0\WorkWithFileSistem.AssemblyInfo.cs
+C:\Users\Kco\Desktop\C#GithubRepo\C-\FileSistem\WorkWithFileSistem\WorkWithFileSistem\obj\Debug\net6.0\WorkWithFileSistem.csproj.CoreCompileInputs.cache
+C:\Users\Kco\Desktop\C#GithubRepo\C-\FileSistem\WorkWithFileSistem\WorkWithFileSistem\obj\Debug\net6.0\WorkWithFileSistem.dll
+C:\Users\Kco\Desktop\C#GithubRepo\C-\FileSistem\WorkWithFileSistem\WorkWithFileSistem\obj\Debug\net6.0\refint\WorkWithFileSistem.dll
+C:\Users\Kco\Desktop\C#GithubRepo\C-\FileSistem\WorkWithFileSistem\WorkWithFileSistem\obj\Debug\net6.0\WorkWithFileSistem.pdb
+C:\Users\Kco\Desktop\C#GithubRepo\C-\FileSistem\WorkWithFileSistem\WorkWithFileSistem\obj\Debug\net6.0\WorkWithFileSistem.genruntimeconfig.cache
+C:\Users\Kco\Desktop\C#GithubRepo\C-\FileSistem\WorkWithFileSistem\WorkWithFileSistem\obj\Debug\net6.0\ref\WorkWithFileSistem.dll
