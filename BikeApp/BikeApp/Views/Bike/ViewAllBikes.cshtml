@@ -1,0 +1,15 @@
+﻿@using BikeApp.Models
+@model List<Bike> 
+
+<ul>
+	@foreach(Bike bike in Model)
+	{
+		<li>@bike.Id</li>
+		<li>@bike.ManufacturingCame</li>
+		<li>@bike.Gears</li>
+		<li>@bike.BikesType</li>
+		<li>@bike.HasHydrauslic</li>
+		<li>@bike.WheelDiameter</li>
+
+	}
+</ul>
