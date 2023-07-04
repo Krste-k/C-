@@ -1,0 +1,150 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "SEDC.PizzaApp.Refactored.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SEDC.PizzaApp.Refactored.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SEDC.PizzaApp.Refactored.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SEDC.PizzaApp.Refactored.DataAccess.dll": {}
+        }
+      },
+      "SEDC.PizzaApp.Refactored.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SEDC.PizzaApp.Refactored.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SEDC.PizzaApp.Refactored.Domain.dll": {}
+        }
+      },
+      "SEDC.PizzaApp.Refactored.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SEDC.PizzaApp.Refactored.DataAccess": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SEDC.PizzaApp.Refactored.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SEDC.PizzaApp.Refactored.Services.dll": {}
+        }
+      },
+      "SEDC.PizzaApp.Refactored.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SEDC.PizzaApp.Refactored.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SEDC.PizzaApp.Refactored.ViewModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SEDC.PizzaApp.Refactored.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../SEDC.PizzaApp.Refactored.DataAccess/SEDC.PizzaApp.Refactored.DataAccess.csproj",
+      "msbuildProject": "../SEDC.PizzaApp.Refactored.DataAccess/SEDC.PizzaApp.Refactored.DataAccess.csproj"
+    },
+    "SEDC.PizzaApp.Refactored.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SEDC.PizzaApp.Refactored.Domain/SEDC.PizzaApp.Refactored.Domain.csproj",
+      "msbuildProject": "../SEDC.PizzaApp.Refactored.Domain/SEDC.PizzaApp.Refactored.Domain.csproj"
+    },
+    "SEDC.PizzaApp.Refactored.Services/1.0.0": {
+      "type": "project",
+      "path": "../SEDC.PizzaApp.Refactored.Services/SEDC.PizzaApp.Refactored.Services.csproj",
+      "msbuildProject": "../SEDC.PizzaApp.Refactored.Services/SEDC.PizzaApp.Refactored.Services.csproj"
+    },
+    "SEDC.PizzaApp.Refactored.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../SEDC.PizzaApp.Refactored.ViewModels/SEDC.PizzaApp.Refactored.ViewModels.csproj",
+      "msbuildProject": "../SEDC.PizzaApp.Refactored.ViewModels/SEDC.PizzaApp.Refactored.ViewModels.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "SEDC.PizzaApp.Refactored.Services >= 1.0.0",
+      "SEDC.PizzaApp.Refactored.ViewModels >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Kco\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Kco\\Desktop\\C#GithubRepo\\C-\\PizzaApp\\SEDC.PizzaApp.Refactored.Web\\SEDC.PizzaApp.Refactored.Web.csproj",
+      "projectName": "SEDC.PizzaApp.Refactored.Web",
+      "projectPath": "C:\\Users\\Kco\\Desktop\\C#GithubRepo\\C-\\PizzaApp\\SEDC.PizzaApp.Refactored.Web\\SEDC.PizzaApp.Refactored.Web.csproj",
+      "packagesPath": "C:\\Users\\Kco\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kco\\Desktop\\C#GithubRepo\\C-\\PizzaApp\\SEDC.PizzaApp.Refactored.Web\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Kco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Kco\\Desktop\\C#GithubRepo\\C-\\PizzaApp\\SEDC.PizzaApp.Refactored.Services\\SEDC.PizzaApp.Refactored.Services.csproj": {
+              "projectPath": "C:\\Users\\Kco\\Desktop\\C#GithubRepo\\C-\\PizzaApp\\SEDC.PizzaApp.Refactored.Services\\SEDC.PizzaApp.Refactored.Services.csproj"
+            },
+            "C:\\Users\\Kco\\Desktop\\C#GithubRepo\\C-\\PizzaApp\\SEDC.PizzaApp.Refactored.ViewModels\\SEDC.PizzaApp.Refactored.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\Kco\\Desktop\\C#GithubRepo\\C-\\PizzaApp\\SEDC.PizzaApp.Refactored.ViewModels\\SEDC.PizzaApp.Refactored.ViewModels.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
