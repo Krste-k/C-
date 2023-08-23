@@ -1,0 +1,209 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Kco\\Downloads\\sedc-codecademy mkwd11-net-09-aspnetwebapi main G2-SEDC.NoteApp\\SEDC.NoteApp.Helpers\\SEDC.NoteApp.Helpers.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Kco\\Downloads\\sedc-codecademy mkwd11-net-09-aspnetwebapi main G2-SEDC.NoteApp\\SEDC.NoteApp.DataAccess\\SEDC.NoteApp.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kco\\Downloads\\sedc-codecademy mkwd11-net-09-aspnetwebapi main G2-SEDC.NoteApp\\SEDC.NoteApp.DataAccess\\SEDC.NoteApp.DataAccess.csproj",
+        "projectName": "SEDC.NoteApp.DataAccess",
+        "projectPath": "C:\\Users\\Kco\\Downloads\\sedc-codecademy mkwd11-net-09-aspnetwebapi main G2-SEDC.NoteApp\\SEDC.NoteApp.DataAccess\\SEDC.NoteApp.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Kco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kco\\Downloads\\sedc-codecademy mkwd11-net-09-aspnetwebapi main G2-SEDC.NoteApp\\SEDC.NoteApp.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Kco\\Downloads\\sedc-codecademy mkwd11-net-09-aspnetwebapi main G2-SEDC.NoteApp\\SEDC.NoteApp.Domain\\SEDC.NoteApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\Kco\\Downloads\\sedc-codecademy mkwd11-net-09-aspnetwebapi main G2-SEDC.NoteApp\\SEDC.NoteApp.Domain\\SEDC.NoteApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kco\\Downloads\\sedc-codecademy mkwd11-net-09-aspnetwebapi main G2-SEDC.NoteApp\\SEDC.NoteApp.Domain\\SEDC.NoteApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kco\\Downloads\\sedc-codecademy mkwd11-net-09-aspnetwebapi main G2-SEDC.NoteApp\\SEDC.NoteApp.Domain\\SEDC.NoteApp.Domain.csproj",
+        "projectName": "SEDC.NoteApp.Domain",
+        "projectPath": "C:\\Users\\Kco\\Downloads\\sedc-codecademy mkwd11-net-09-aspnetwebapi main G2-SEDC.NoteApp\\SEDC.NoteApp.Domain\\SEDC.NoteApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\Kco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kco\\Downloads\\sedc-codecademy mkwd11-net-09-aspnetwebapi main G2-SEDC.NoteApp\\SEDC.NoteApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kco\\Downloads\\sedc-codecademy mkwd11-net-09-aspnetwebapi main G2-SEDC.NoteApp\\SEDC.NoteApp.Helpers\\SEDC.NoteApp.Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kco\\Downloads\\sedc-codecademy mkwd11-net-09-aspnetwebapi main G2-SEDC.NoteApp\\SEDC.NoteApp.Helpers\\SEDC.NoteApp.Helpers.csproj",
+        "projectName": "SEDC.NoteApp.Helpers",
+        "projectPath": "C:\\Users\\Kco\\Downloads\\sedc-codecademy mkwd11-net-09-aspnetwebapi main G2-SEDC.NoteApp\\SEDC.NoteApp.Helpers\\SEDC.NoteApp.Helpers.csproj",
+        "packagesPath": "C:\\Users\\Kco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kco\\Downloads\\sedc-codecademy mkwd11-net-09-aspnetwebapi main G2-SEDC.NoteApp\\SEDC.NoteApp.Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Kco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Kco\\Downloads\\sedc-codecademy mkwd11-net-09-aspnetwebapi main G2-SEDC.NoteApp\\SEDC.NoteApp.DataAccess\\SEDC.NoteApp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Kco\\Downloads\\sedc-codecademy mkwd11-net-09-aspnetwebapi main G2-SEDC.NoteApp\\SEDC.NoteApp.DataAccess\\SEDC.NoteApp.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
