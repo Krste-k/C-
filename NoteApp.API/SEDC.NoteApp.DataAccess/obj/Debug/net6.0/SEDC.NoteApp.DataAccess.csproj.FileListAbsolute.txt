@@ -1,0 +1,17 @@
+C:\Users\Kco\Desktop\C#GithubRepo\C-\NoteApp.API\SEDC.NoteApp.DataAccess\bin\Debug\net6.0\SEDC.NoteApp.DataAccess.deps.json
+C:\Users\Kco\Desktop\C#GithubRepo\C-\NoteApp.API\SEDC.NoteApp.DataAccess\bin\Debug\net6.0\SEDC.NoteApp.DataAccess.runtimeconfig.json
+C:\Users\Kco\Desktop\C#GithubRepo\C-\NoteApp.API\SEDC.NoteApp.DataAccess\bin\Debug\net6.0\SEDC.NoteApp.DataAccess.dll
+C:\Users\Kco\Desktop\C#GithubRepo\C-\NoteApp.API\SEDC.NoteApp.DataAccess\bin\Debug\net6.0\SEDC.NoteApp.DataAccess.pdb
+C:\Users\Kco\Desktop\C#GithubRepo\C-\NoteApp.API\SEDC.NoteApp.DataAccess\bin\Debug\net6.0\SEDC.NoteApp.Domain.dll
+C:\Users\Kco\Desktop\C#GithubRepo\C-\NoteApp.API\SEDC.NoteApp.DataAccess\bin\Debug\net6.0\SEDC.NoteApp.Domain.pdb
+C:\Users\Kco\Desktop\C#GithubRepo\C-\NoteApp.API\SEDC.NoteApp.DataAccess\obj\Debug\net6.0\SEDC.NoteApp.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Kco\Desktop\C#GithubRepo\C-\NoteApp.API\SEDC.NoteApp.DataAccess\obj\Debug\net6.0\SEDC.NoteApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kco\Desktop\C#GithubRepo\C-\NoteApp.API\SEDC.NoteApp.DataAccess\obj\Debug\net6.0\SEDC.NoteApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Kco\Desktop\C#GithubRepo\C-\NoteApp.API\SEDC.NoteApp.DataAccess\obj\Debug\net6.0\SEDC.NoteApp.DataAccess.AssemblyInfo.cs
+C:\Users\Kco\Desktop\C#GithubRepo\C-\NoteApp.API\SEDC.NoteApp.DataAccess\obj\Debug\net6.0\SEDC.NoteApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Kco\Desktop\C#GithubRepo\C-\NoteApp.API\SEDC.NoteApp.DataAccess\obj\Debug\net6.0\SEDC.NoteApp.DataAccess.csproj.CopyComplete
+C:\Users\Kco\Desktop\C#GithubRepo\C-\NoteApp.API\SEDC.NoteApp.DataAccess\obj\Debug\net6.0\SEDC.NoteApp.DataAccess.dll
+C:\Users\Kco\Desktop\C#GithubRepo\C-\NoteApp.API\SEDC.NoteApp.DataAccess\obj\Debug\net6.0\refint\SEDC.NoteApp.DataAccess.dll
+C:\Users\Kco\Desktop\C#GithubRepo\C-\NoteApp.API\SEDC.NoteApp.DataAccess\obj\Debug\net6.0\SEDC.NoteApp.DataAccess.pdb
+C:\Users\Kco\Desktop\C#GithubRepo\C-\NoteApp.API\SEDC.NoteApp.DataAccess\obj\Debug\net6.0\SEDC.NoteApp.DataAccess.genruntimeconfig.cache
+C:\Users\Kco\Desktop\C#GithubRepo\C-\NoteApp.API\SEDC.NoteApp.DataAccess\obj\Debug\net6.0\ref\SEDC.NoteApp.DataAccess.dll
