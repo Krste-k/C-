@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SEDC.NoteApp.DataAccess;
 
@@ -10,9 +11,10 @@ using SEDC.NoteApp.DataAccess;
 namespace SEDC.NoteApp.DataAccess.Migrations
 {
     [DbContext(typeof(NoteAppDbContext))]
-    partial class NoteAppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230829155101_AddNoteStoredProcedure")]
+    partial class AddNoteStoredProcedure
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -48,6 +50,16 @@ namespace SEDC.NoteApp.DataAccess.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Notes");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Priority = 1,
+                            Tag = 3,
+                            Text = "note text",
+                            UserId = 1
+                        });
                 });
 
             modelBuilder.Entity("SEDC.NoteApp.Domain.Models.User", b =>
@@ -69,10 +81,6 @@ namespace SEDC.NoteApp.DataAccess.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasMaxLength(30)
@@ -81,6 +89,16 @@ namespace SEDC.NoteApp.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Age = 34,
+                            FirstName = "Viktor",
+                            LastName = "Jakovlev",
+                            Username = "vjakovlev"
+                        });
                 });
 
             modelBuilder.Entity("SEDC.NoteApp.Domain.Models.Note", b =>
