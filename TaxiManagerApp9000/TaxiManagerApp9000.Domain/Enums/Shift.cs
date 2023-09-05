@@ -2,7 +2,8 @@
 {
     public enum Shift
     {
-        Morning = 1,
+        NoShift,
+        Morning,
         Afternoon,
         Evening
     }
