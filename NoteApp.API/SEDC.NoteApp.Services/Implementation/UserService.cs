@@ -1,14 +1,16 @@
-﻿using SEDC.NoteApp.CustomExceptions;
+﻿using Microsoft.IdentityModel.Tokens;
+using SEDC.NoteApp.CryptoService;
+using SEDC.NoteApp.CustomExceptions;
 using SEDC.NoteApp.DataAccess.Abstraction;
 using SEDC.NoteApp.Domain.Models;
 using SEDC.NoteApp.DTOs;
 using SEDC.NoteApp.Services.Abstraction;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
-using XSystem.Security.Cryptography;
 
 namespace SEDC.NoteApp.Services.Implementation
 {
-    // XAct.Core.PCL => nuget for hashing
     public class UserService : IUserService
     {
         private readonly IUserRepository _userRepository;
@@ -25,23 +27,35 @@ namespace SEDC.NoteApp.Services.Implementation
                 throw new UserDataException("Username and password are required fields!");
             }
 
-            var mD5CryptoServiceProvider = new MD5CryptoServiceProvider();
-
-            byte[] passwordBytes = Encoding.ASCII.GetBytes(loginUserDto.Password);
-
-            byte[] hashedBytes = mD5CryptoServiceProvider.ComputeHash(passwordBytes);
-
-            string passwordHash = Encoding.ASCII.GetString(hashedBytes);
-
-            var userFromDb = _userRepository.LoginUser(loginUserDto.Username, passwordHash);
+            var userFromDb = _userRepository.LoginUser(loginUserDto.Username, StringHasher.Hash(loginUserDto.Password));
 
             if (userFromDb == null) 
             {
                 throw new UserNotFoundException("User not found!");
             }
 
-            // return token 
-            return "fake token";
+            //Generate JWT Token
+            JwtSecurityTokenHandler jwtSecurityTokenHandler = new JwtSecurityTokenHandler();
+            byte[] secretKeyBytes = Encoding.ASCII.GetBytes("Our very secret secret key");
+
+            SecurityTokenDescriptor securityTokenDescriptor = new SecurityTokenDescriptor
+            {
+                Expires = DateTime.UtcNow.AddDays(3),
+                //signature configuration
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(secretKeyBytes), SecurityAlgorithms.HmacSha256Signature),
+                //payload
+                Subject = new ClaimsIdentity(
+                    new[] 
+                    {
+                        new Claim("userFullName", $"{userFromDb.FirstName} {userFromDb.LastName}"),
+                        new Claim("userId", $"{userFromDb.Id}"),
+                        new Claim(ClaimTypes.Name, userFromDb.Username)
+                    }
+                )
+            };
+
+            SecurityToken token = jwtSecurityTokenHandler.CreateToken(securityTokenDescriptor);
+            return jwtSecurityTokenHandler.WriteToken(token);
         }
 
         public void RegisterUser(RegisterUserDto registerUserDto)
@@ -50,13 +64,7 @@ namespace SEDC.NoteApp.Services.Implementation
             ValidateUser(registerUserDto);
 
             //2. Hash password
-            var mD5CryptoServiceProvider = new MD5CryptoServiceProvider();
-
-            byte[] passwordBytes = Encoding.ASCII.GetBytes(registerUserDto.Password);
-
-            byte[] hashedBytes = mD5CryptoServiceProvider.ComputeHash(passwordBytes);
-
-            string passwordHash = Encoding.ASCII.GetString(hashedBytes);
+            var passwordHash = StringHasher.Hash(registerUserDto.Password);
 
             //3. create new user
             var user = new User
